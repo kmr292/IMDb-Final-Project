@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>Graphs</h1>
+        <p>Some things are better visualized</p>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Receiver Operating Characteristic Chart</h3>
+            <img src="resources/roc_curve.png" alt="curve" height="800" width="800">
+            <p>Illustrates the diagnostic ability of a binary classifier system as its discrimination 
+              threshold varies.  It plots the true positive rating against the false positive rating.  
+              The auc (area under the curve) is a number between 0 and 1, and can be used as a way 
+              to compare different models.  A number closer to one represents a system that is better 
+              at identifying a true positive, a number closer to 0 would be the inverse and would 
+              identify a true negative as a false positive and number close to 0.5 would represent 
+              an uninformative classifier.</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Accuracy Score</h3>
+            <img src="resources/scores_ml.png" alt="curve" height="800" width="800">
+            <p>Second graph plots the accuracy score and time it took to complete both training and 
+              testing of each classifier.  The times plotted are a ratio of the classifier which took 
+              the most time to train and test.</p>
+          </div>
+          <!-- <div class="col-sm-4">
+            <h3>Column 3</h3>
+            <p>Lorem ipsum dolor..</p>
+          </div> -->
+        </div>
+      </div>
+</body>
+</html>
